@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    margin-top: 9rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main {
+    border-radius: 15px;
+    width: 27rem;
+    height: 38rem;
+    background-color: #FFF;
+    justify-content: center;
+}
+
+.qr-code {
+    border-radius: 1rem;
+    
+    height: 25rem;
+    width: 25rem;
+    margin-top: 1rem;
+}
+
+.qr-code img {
+    border-radius: 1rem;
+    width: 25rem;
+}
+
+.qr-code, .qr-description {
+    margin-left: 1rem;
+}
+
+
+.qr-description {
+    height: 19rem;
+    width: 25rem;
+    text-align: center;
+}
+
+.qr-title {
+    margin-top: 1rem;
+    font-size: 25px;
+    font-family: Outfit;
+    font-weight: 900;
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-text {
+    font-size: 18px;
+   color: hsl(220, 15%, 55%); 
+}
+
+
+
